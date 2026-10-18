@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216775147889",
+    "project_id": "electronica360",
+    "storage_bucket": "electronica360.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216775147889:android:109c84a53cd5fc9630f6d0",
+        "android_client_info": {
+          "package_name": "com.electronica360.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPp3Dcx-rRZc7nnvqLdaubBGwIuroWxlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="800dp"
+    android:viewportWidth="360"
+    android:viewportHeight="800">
+
+    <!-- Fondo blanco -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M0,0 H360 V800 H0 Z" />
+
+    <!-- Circuitos decorativos superiores e inferiores -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#221746E8"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M0,12 H24 L42,30 H64 L82,48 H101
+                          M0,42 H13 L31,60 V79
+                          M18,0 V15 L35,32
+                          M360,18 H338 L320,36 H298 L280,54 H259
+                          M360,48 H346 L329,65 V84
+                          M340,0 V14 L324,30
+                          M0,758 H22 L40,776 H61 L79,794
+                          M0,786 H13 L27,800
+                          M360,752 H341 L323,770 H301 L283,788 H263
+                          M360,785 H347 L333,799" />
+
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#4420A5D6"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M0,26 H9 L25,42
+                          M47,0 V9 L61,23 H78
+                          M360,31 H351 L335,47
+                          M312,0 V10 L298,24 H281
+                          M0,775 H10 L26,791
+                          M48,800 V789 L62,775
+                          M360,771 H350 L334,787
+                          M310,800 V789 L296,775" />
+
+    <!-- Nodos azules -->
+    <path
+        android:fillColor="#FF1746E8"
+        android:pathData="M20,9 A2.5,2.5 0,1 0 25,9 A2.5,2.5 0,1 0 20,9
+                          M61,26 A2.5,2.5 0,1 0 66,26 A2.5,2.5 0,1 0 61,26
+                          M326,30 A2.5,2.5 0,1 0 331,30 A2.5,2.5 0,1 0 326,30
+                          M344,10 A2.5,2.5 0,1 0 349,10 A2.5,2.5 0,1 0 344,10
+                          M26,781 A2.5,2.5 0,1 0 31,781 A2.5,2.5 0,1 0 26,781
+                          M53,790 A2.5,2.5 0,1 0 58,790 A2.5,2.5 0,1 0 53,790
+                          M329,782 A2.5,2.5 0,1 0 334,782 A2.5,2.5 0,1 0 329,782
+                          M344,767 A2.5,2.5 0,1 0 349,767 A2.5,2.5 0,1 0 344,767" />
+
+    <!-- Nodos cian -->
+    <path
+        android:fillColor="#FF20A5D6"
+        android:pathData="M81,46 A2,2 0,1 0 85,46 A2,2 0,1 0 81,46
+                          M276,51 A2,2 0,1 0 280,51 A2,2 0,1 0 276,51
+                          M73,779 A2,2 0,1 0 77,779 A2,2 0,1 0 73,779
+                          M281,784 A2,2 0,1 0 285,784 A2,2 0,1 0 281,784" />
+
+</vector>

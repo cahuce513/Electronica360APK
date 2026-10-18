@@ -1,0 +1,19 @@
+# Archivos de Android Studio
+*.iml
+.idea/
+
+# Gradle y archivos generados
+.gradle/
+**/build/
+
+# Configuración local del equipo
+local.properties
+
+# Archivos temporales y compilación nativa
+.DS_Store
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# Otro proyecto ubicado en esta carpeta
+/MyApplication/
